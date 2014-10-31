@@ -1,5 +1,3 @@
-require 'pry'
-
 module FreshBoard
   def refresh_board_spots
     spots = {}
@@ -40,7 +38,6 @@ module CheckForWinner
         return outcome
       end
     end
-
   end
 end
 
@@ -150,7 +147,6 @@ class Game
       end
     end
   end
-
 end
 
 game = Game.new
